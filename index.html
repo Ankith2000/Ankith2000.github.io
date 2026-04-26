@@ -9,6 +9,16 @@
 
 <body>
 
+<!-- BACKGROUND LOGOS -->
+<div class="bg">
+  <span>AWS</span>
+  <span>K8s</span>
+  <span>Docker</span>
+  <span>Terraform</span>
+  <span>Jenkins</span>
+  <span>Linux</span>
+</div>
+
 <!-- NAVBAR -->
 <nav>
   <div class="logo">AB</div>
@@ -38,9 +48,7 @@
 <!-- ABOUT -->
 <section id="about">
   <h2>About</h2>
-  <p>
-    DevOps Engineer focused on AWS, Kubernetes, Terraform, CI/CD automation, and production monitoring.
-  </p>
+  <p>DevOps Engineer focused on AWS, Kubernetes, Terraform, CI/CD automation, and production monitoring.</p>
 </section>
 
 <!-- SKILLS -->
@@ -56,69 +64,73 @@
 <!-- CERTIFICATIONS -->
 <section id="certifications">
   <h2>Certifications</h2>
-  <div class="card">AWS Certified Cloud Practitioner</div>
-  <div class="card">AWS Solutions Architect Associate</div>
-  <div class="card">Terraform Associate</div>
+  <div class="grid">
+    <div class="card">AWS CCP</div>
+    <div class="card">AWS SAA</div>
+    <div class="card">Terraform Associate</div>
+  </div>
 </section>
 
 <!-- PROJECTS -->
 <section id="projects">
   <h2>Projects</h2>
 
-  <div class="card">
-    <h3>AWS Cost Optimization</h3>
-    <p>Detects idle EC2, unused EBS, and cost inefficiencies using Bash & AWS CLI.</p>
-    <a href="https://github.com/Ankith2000/aws-cost-audit" target="_blank">View →</a>
-  </div>
+  <div class="grid">
+    <div class="card">
+      <h3>AWS Cost Optimization</h3>
+      <p>Detects idle resources using Bash & AWS CLI.</p>
+      <a href="https://github.com/Ankith2000/aws-cost-audit">View →</a>
+    </div>
 
-  <div class="card">
-    <h3>CI/CD Microservices EKS</h3>
-    <p>Deployed 11 microservices using Jenkins, Docker & Kubernetes on AWS EKS.</p>
-    <a href="https://github.com/Ankith2000/jenkins-eks-microservices" target="_blank">View →</a>
-  </div>
+    <div class="card">
+      <h3>CI/CD EKS Microservices</h3>
+      <p>11 microservices deployed via Jenkins & Kubernetes.</p>
+      <a href="https://github.com/Ankith2000/jenkins-eks-microservices">View →</a>
+    </div>
 
-  <div class="card">
-    <h3>Blog Generator (Bedrock)</h3>
-    <p>Serverless AI app using AWS Bedrock, Lambda, API Gateway & S3.</p>
-    <a href="https://github.com/Ankith2000/blog-generation-in-aws" target="_blank">View →</a>
-  </div>
+    <div class="card">
+      <h3>Blog Generator (Bedrock)</h3>
+      <p>Serverless AI blog generator using AWS.</p>
+      <a href="https://github.com/Ankith2000/blog-generation-in-aws">View →</a>
+    </div>
 
-  <div class="card">
-    <h3>AIOps Log Analysis</h3>
-    <p>ML-based anomaly detection in logs using Python & IsolationForest.</p>
-    <a href="https://github.com/Ankith2000/AIOPS-LOG-ANALYSIS" target="_blank">View →</a>
+    <div class="card">
+      <h3>AIOps Log Analysis</h3>
+      <p>ML-based anomaly detection using Python.</p>
+      <a href="https://github.com/Ankith2000/AIOPS-LOG-ANALYSIS">View →</a>
+    </div>
   </div>
-
 </section>
 
 <!-- BLOGS -->
 <section id="blogs">
   <h2>Blogs</h2>
 
-  <div class="card">
-    <h3>Docker Layers & Caching</h3>
-    <p>Optimize Docker builds using caching and layering.</p>
-    <a href="https://medium.com/@anki.writes/understanding-docker-layers-caching-best-practices-for-faster-builds-b6d2d0aa328c" target="_blank">Read →</a>
-  </div>
+  <div class="grid">
+    <div class="card">
+      <h3>Docker Layers</h3>
+      <p>Optimize Docker builds using caching.</p>
+      <a href="https://medium.com/@anki.writes/understanding-docker-layers-caching-best-practices-for-faster-builds-b6d2d0aa328c">Read →</a>
+    </div>
 
-  <div class="card">
-    <h3>AWS Lambda Concurrency</h3>
-    <p>Understanding throttling and cold starts.</p>
-    <a href="https://medium.com/@anki.writes/aws-lambda-concurrency-throttling-cold-starts-3bd5b710fb53" target="_blank">Read →</a>
-  </div>
+    <div class="card">
+      <h3>Lambda Concurrency</h3>
+      <p>Understand cold starts & throttling.</p>
+      <a href="https://medium.com/@anki.writes/aws-lambda-concurrency-throttling-cold-starts-3bd5b710fb53">Read →</a>
+    </div>
 
-  <div class="card">
-    <h3>Forward vs Reverse Proxy</h3>
-    <p>System design explanation of proxies.</p>
-    <a href="https://medium.com/@anki.writes/forward-proxy-and-reverse-proxy-explained-for-system-designers-29a20b9f39e7" target="_blank">Read →</a>
-  </div>
+    <div class="card">
+      <h3>Proxy Explained</h3>
+      <p>Forward vs Reverse proxy basics.</p>
+      <a href="https://medium.com/@anki.writes/forward-proxy-and-reverse-proxy-explained-for-system-designers-29a20b9f39e7">Read →</a>
+    </div>
 
-  <div class="card">
-    <h3>Container Networking</h3>
-    <p>How containers communicate internally.</p>
-    <a href="https://medium.com/@anki.writes/how-container-networking-actually-works-part-1-140d2be74814" target="_blank">Read →</a>
+    <div class="card">
+      <h3>Container Networking</h3>
+      <p>How containers communicate internally.</p>
+      <a href="https://medium.com/@anki.writes/how-container-networking-actually-works-part-1-140d2be74814">Read →</a>
+    </div>
   </div>
-
 </section>
 
 <!-- CONTACT -->
@@ -126,7 +138,6 @@
   <h2>Contact</h2>
   <p>Email: ankithbhat01@gmail.com</p>
   <p>Phone: 9482393101</p>
-  <a href="https://www.linkedin.com/in/ankithbhat01/" target="_blank">LinkedIn</a>
 </section>
 
 </body>

@@ -6,15 +6,16 @@
   <title>Ankith R Bhat | DevOps Engineer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
 <div class="floating-logos">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform" />
 </div>
 
 <header>
@@ -25,17 +26,31 @@
       <a href="#about">About</a>
       <a href="#certifications">Certifications</a>
       <a href="#projects">Projects</a>
-      <a href="#blogs">Articles</a>
+      <a href="#articles">Articles</a>
       <a href="#contact">Contact</a>
     </div>
 
     <div class="nav-socials">
-      <a href="https://github.com/Ankith2000" target="_blank">GH</a>
-      <a href="https://www.linkedin.com/in/ankithbhat01/" target="_blank">IN</a>
-      <a href="https://medium.com/@anki.writes" target="_blank">MD</a>
+      <a href="https://github.com/Ankith2000" target="_blank" aria-label="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+      </a>
+
+      <a href="https://www.linkedin.com/in/ankithbhat01/" target="_blank" aria-label="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+      </a>
+
+      <a href="https://medium.com/@anki.writes" target="_blank" aria-label="Medium">
+        <svg viewBox="0 0 1043.63 592.71" class="medium-icon">
+          <path d="M588.67 296.35c0 163.63-131.63 296.36-294.33 296.36S0 460 0 296.35 131.63 0 294.34 0s294.33 132.72 294.33 296.35z"/>
+          <path d="M912.45 296.35c0 154.04-65.82 278.93-147.04 278.93S618.37 450.39 618.37 296.35 684.19 17.42 765.41 17.42s147.04 124.89 147.04 278.93z"/>
+          <path d="M1043.63 296.35c0 147.46-23.19 266.96-51.8 266.96s-51.8-119.5-51.8-266.96S963.22 29.39 991.83 29.39s51.8 119.5 51.8 266.96z"/>
+        </svg>
+      </a>
     </div>
   </nav>
 </header>
+
+<main>
 
 <section id="home" class="hero">
   <div class="hero-inner">
@@ -64,18 +79,41 @@
 
   <p class="about-text">
     DevOps Engineer with hands-on experience in AWS, Kubernetes, Terraform,
-    CI/CD automation, and production monitoring. I build practical cloud
-    projects around EKS automation, cost optimization, serverless AI workflows,
-    and AIOps log analysis.
+    CI/CD automation, and production monitoring. I build practical cloud projects
+    around EKS automation, cost optimization, serverless AI workflows, and AIOps log analysis.
   </p>
 
   <div class="about-stats">
-    <div><h3>cloud</h3><strong>7+</strong><span>Technologies</span></div>
-    <div><h3>containers</h3><strong>3+</strong><span>Technologies</span></div>
-    <div><h3>cicd</h3><strong>3+</strong><span>Technologies</span></div>
-    <div><h3>iac</h3><strong>2+</strong><span>Technologies</span></div>
-    <div><h3>monitoring</h3><strong>3+</strong><span>Technologies</span></div>
-    <div><h3>aiops</h3><strong>3+</strong><span>Technologies</span></div>
+    <div>
+      <h3>cloud</h3>
+      <strong>7+</strong>
+      <span>Technologies</span>
+    </div>
+    <div>
+      <h3>containers</h3>
+      <strong>3+</strong>
+      <span>Technologies</span>
+    </div>
+    <div>
+      <h3>cicd</h3>
+      <strong>3+</strong>
+      <span>Technologies</span>
+    </div>
+    <div>
+      <h3>iac</h3>
+      <strong>2+</strong>
+      <span>Technologies</span>
+    </div>
+    <div>
+      <h3>monitoring</h3>
+      <strong>3+</strong>
+      <span>Technologies</span>
+    </div>
+    <div>
+      <h3>aiops</h3>
+      <strong>3+</strong>
+      <span>Technologies</span>
+    </div>
   </div>
 </section>
 
@@ -86,32 +124,41 @@
   </div>
 
   <div class="cert-grid">
-    <div class="cert-card">
+    <article class="cert-card">
       <div class="cert-icon">AWS</div>
       <h3>AWS Certified Cloud Practitioner</h3>
       <p>Amazon Web Services</p>
       <span>Cloud Fundamentals</span>
-    </div>
+    </article>
 
-    <div class="cert-card">
+    <article class="cert-card">
       <div class="cert-icon">SAA</div>
       <h3>AWS Solutions Architect Associate</h3>
       <p>Amazon Web Services</p>
       <span>Cloud Architecture</span>
-    </div>
+    </article>
 
-    <div class="cert-card">
+    <article class="cert-card">
       <div class="cert-icon">TF</div>
       <h3>HashiCorp Terraform Associate</h3>
       <p>HashiCorp</p>
       <span>Infrastructure as Code</span>
-    </div>
+    </article>
   </div>
 
   <div class="mini-stats">
-    <div><strong>3</strong><span>Active Certifications</span></div>
-    <div><strong>AWS</strong><span>Cloud Focus</span></div>
-    <div><strong>IaC</strong><span>Terraform Focus</span></div>
+    <div>
+      <strong>3</strong>
+      <span>Active Certifications</span>
+    </div>
+    <div>
+      <strong>AWS</strong>
+      <span>Cloud Focus</span>
+    </div>
+    <div>
+      <strong>IaC</strong>
+      <span>Terraform Focus</span>
+    </div>
   </div>
 </section>
 
@@ -122,116 +169,184 @@
   </div>
 
   <div class="project-list">
+
     <article class="project-card">
       <div class="preview">AWS Cost Audit</div>
+
       <div class="project-content">
         <h3>AWS Cost Optimization Automation</h3>
-        <p>Bash and AWS CLI automation to detect idle EC2 instances, unused EBS volumes, orphaned load balancers, old RDS snapshots, and missing S3 lifecycle policies.</p>
+        <p>
+          Bash and AWS CLI automation to detect idle EC2 instances, unused EBS volumes,
+          orphaned load balancers, old RDS snapshots, and missing S3 lifecycle policies.
+        </p>
+
         <h4>Key Achievements</h4>
         <ul>
           <li>Identifies unused AWS resources</li>
           <li>Improves cost visibility</li>
           <li>Automates manual audit checks</li>
         </ul>
+
         <h4>Technologies Used</h4>
-        <div class="chips"><span>Shell</span><span>AWS CLI</span><span>AWS</span></div>
+        <div class="chips">
+          <span>Shell</span>
+          <span>AWS CLI</span>
+          <span>AWS</span>
+        </div>
+
         <a href="https://github.com/Ankith2000/aws-cost-audit" target="_blank">View Project</a>
       </div>
     </article>
 
     <article class="project-card">
       <div class="preview">EKS CI/CD</div>
+
       <div class="project-content">
         <h3>Automated CI/CD for Microservices on AWS EKS</h3>
-        <p>Designed and deployed an e-commerce platform with 11 microservices using Jenkins, Docker, Kubernetes, RBAC, and AWS EKS.</p>
+        <p>
+          Designed and deployed an e-commerce platform with 11 microservices using
+          Jenkins, Docker, Kubernetes, RBAC, and AWS EKS.
+        </p>
+
         <h4>Key Achievements</h4>
         <ul>
           <li>Built Jenkins multibranch pipelines</li>
           <li>Automated build, test, and deployment</li>
           <li>Verified workloads on Kubernetes</li>
         </ul>
+
         <h4>Technologies Used</h4>
-        <div class="chips"><span>Kubernetes</span><span>Jenkins</span><span>Docker</span><span>EKS</span></div>
+        <div class="chips">
+          <span>Kubernetes</span>
+          <span>Jenkins</span>
+          <span>Docker</span>
+          <span>EKS</span>
+        </div>
+
         <a href="https://github.com/Ankith2000/jenkins-eks-microservices" target="_blank">View Project</a>
       </div>
     </article>
 
     <article class="project-card">
       <div class="preview">AWS Bedrock</div>
+
       <div class="project-content">
         <h3>AIOps: Blog Generator using AWS Bedrock</h3>
-        <p>Serverless AI blog generator using Amazon Bedrock, Lambda, API Gateway, and S3 to generate content from REST API requests.</p>
+        <p>
+          Serverless AI blog generator using Amazon Bedrock, Lambda, API Gateway,
+          and S3 to generate content from REST API requests.
+        </p>
+
         <h4>Key Achievements</h4>
         <ul>
           <li>Built serverless API workflow</li>
           <li>Used Bedrock for content generation</li>
           <li>Stored generated output in S3</li>
         </ul>
+
         <h4>Technologies Used</h4>
-        <div class="chips"><span>AWS</span><span>Bedrock</span><span>Lambda</span><span>Python</span></div>
+        <div class="chips">
+          <span>AWS</span>
+          <span>Bedrock</span>
+          <span>Lambda</span>
+          <span>Python</span>
+        </div>
+
         <a href="https://github.com/Ankith2000/blog-generation-in-aws" target="_blank">View Project</a>
       </div>
     </article>
 
     <article class="project-card">
       <div class="preview">AIOps Logs</div>
+
       <div class="project-content">
         <h3>AIOps: Log Analysis using IsolationForest</h3>
-        <p>Python-based AIOps project for anomaly detection in system logs using machine learning and Grafana-focused analysis.</p>
+        <p>
+          Python-based AIOps project for anomaly detection in system logs using
+          machine learning and Grafana-focused analysis.
+        </p>
+
         <h4>Key Achievements</h4>
         <ul>
           <li>Applied ML for anomaly detection</li>
           <li>Analyzed logs for unusual patterns</li>
           <li>Explored AIOps observability use case</li>
         </ul>
+
         <h4>Technologies Used</h4>
-        <div class="chips"><span>Python</span><span>AI</span><span>Grafana</span><span>Logs</span></div>
+        <div class="chips">
+          <span>Python</span>
+          <span>AI</span>
+          <span>Grafana</span>
+          <span>Logs</span>
+        </div>
+
         <a href="https://github.com/Ankith2000/AIOPS-LOG-ANALYSIS" target="_blank">View Project</a>
       </div>
     </article>
+
   </div>
 </section>
 
-<section id="blogs" class="section">
+<section id="articles" class="section">
   <div class="section-title">
     <h2>Medium Articles</h2>
     <p>Sharing knowledge and insights about DevOps, Cloud, and Kubernetes.</p>
   </div>
 
   <div class="article-grid">
+
     <article class="article-card">
       <h3>Understanding Docker Layers & Caching</h3>
-      <p>Explains Docker image layering, caching behavior, and techniques to optimize build performance.</p>
+      <p>
+        Explains Docker image layering, caching behavior, and techniques to optimize build performance.
+      </p>
       <div class="article-meta">Docker · DevOps · CI/CD</div>
       <a href="https://medium.com/@anki.writes/understanding-docker-layers-caching-best-practices-for-faster-builds-b6d2d0aa328c" target="_blank">Read Article</a>
     </article>
 
     <article class="article-card">
       <h3>AWS Lambda Concurrency, Throttling & Cold Starts</h3>
-      <p>Breaks down Lambda concurrency, throttling, and cold starts with practical performance insights.</p>
+      <p>
+        Breaks down Lambda concurrency, throttling, and cold starts with practical performance insights.
+      </p>
       <div class="article-meta">AWS · Lambda · Serverless</div>
       <a href="https://medium.com/@anki.writes/aws-lambda-concurrency-throttling-cold-starts-3bd5b710fb53" target="_blank">Read Article</a>
     </article>
 
     <article class="article-card">
       <h3>Forward Proxy and Reverse Proxy Explained</h3>
-      <p>Clear explanation of forward and reverse proxies with real-world system design use cases.</p>
+      <p>
+        Clear explanation of forward and reverse proxies with real-world system design use cases.
+      </p>
       <div class="article-meta">Proxy · Networking · System Design</div>
       <a href="https://medium.com/@anki.writes/forward-proxy-and-reverse-proxy-explained-for-system-designers-29a20b9f39e7" target="_blank">Read Article</a>
     </article>
 
     <article class="article-card">
       <h3>How Container Networking Actually Works</h3>
-      <p>Deep dive into container networking, communication models, and architecture basics.</p>
+      <p>
+        Deep dive into container networking, communication models, and architecture basics.
+      </p>
       <div class="article-meta">Containers · Networking · DevOps</div>
       <a href="https://medium.com/@anki.writes/how-container-networking-actually-works-part-1-140d2be74814" target="_blank">Read Article</a>
     </article>
+
   </div>
 
   <div class="mini-stats">
-    <div><strong>4</strong><span>Published Articles</span></div>
-    <div><strong>Medium</strong><span>Writing Platform</span></div>
-    <div><strong>DevOps</strong><span>Main Topic</span></div>
+    <div>
+      <strong>4</strong>
+      <span>Published Articles</span>
+    </div>
+    <div>
+      <strong>Medium</strong>
+      <span>Writing Platform</span>
+    </div>
+    <div>
+      <strong>DevOps</strong>
+      <span>Main Topic</span>
+    </div>
   </div>
 </section>
 
@@ -242,43 +357,49 @@
   </div>
 
   <div class="contact-grid">
-    <div class="contact-panel">
+
+    <article class="contact-panel">
       <h3>Location</h3>
       <p>Bengaluru, India</p>
       <span>Available for DevOps, Cloud, Kubernetes, and SRE roles.</span>
-    </div>
+    </article>
 
-    <div class="contact-panel">
+    <article class="contact-panel">
       <h3>Connect With Me</h3>
       <a href="mailto:ankithbhat01@gmail.com">Email</a>
       <a href="tel:+919482393101">Phone</a>
       <a href="https://github.com/Ankith2000" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/ankithbhat01/" target="_blank">LinkedIn</a>
       <a href="https://medium.com/@anki.writes" target="_blank">Medium</a>
-    </div>
+    </article>
 
-    <div class="contact-panel">
+    <article class="contact-panel">
       <h3>Availability</h3>
       <p>Open to full-time opportunities</p>
       <p>Cloud and DevOps roles</p>
       <p>Kubernetes / SRE roles</p>
-    </div>
+    </article>
+
   </div>
 </section>
+
+</main>
 
 <footer>
   <div>
     <h3>Dev Ops</h3>
     <p>Building scalable infrastructure and practical DevOps solutions.</p>
   </div>
+
   <div>
     <h4>Quick Links</h4>
     <a href="#about">About</a>
     <a href="#certifications">Certifications</a>
     <a href="#projects">Projects</a>
-    <a href="#blogs">Articles</a>
+    <a href="#articles">Articles</a>
     <a href="#contact">Contact</a>
   </div>
+
   <div>
     <h4>Expertise</h4>
     <p>Kubernetes & Docker</p>
